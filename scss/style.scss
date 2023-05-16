@@ -1,0 +1,132 @@
+
+//IMPORTS//
+
+@import "palets";
+@import "fonts";
+@import "reset";
+@import "mixin";
+
+//MAP//
+
+$map:(boton1:color rgba(232, 16, 16, 0), bonton2:color #6666, boton3:color #6666);
+
+
+//RESET//
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//BOTON FORUMALARIO//
+
+.btnf {
+    $flex-direction:"flex-direction";
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px;
+    padding: 10px 10px;
+    width: 98%; 
+    border-radius: 0.5rem;
+}
+
+.tituloq{
+    color:$colorsecond;
+    font-size: 4rem;
+    $fonts-weights:"strong";
+    }
+
+//NAV//
+
+.nav-link{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    }
+    
+    .nav-link:hover, .nav-link:focus{
+    background-size: 100% 2px;
+    }
+
+.containerc{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    
+    }
+
+//TARJETAS//
+    
+.containerc .card{
+    display: flex;
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0,25s;
+}
+    
+    
+.containerc .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+    
+.containerc .card img{
+        width: 330px;
+        height: 220px;
+}
+    
+.containerc .card h4{
+        font-weight: 600;
+}
+    
+.containerc .card p{
+        padding:  0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+    
+    }
+    
+.containerc .card a{
+        font-weight: 500;
+        text-decoration: none;
+        color: #3498db;
+}
+    
+.pcard{
+        color: #2E406E;
+        font-size: 2rem;
+}
+    
+
+.btnstaff{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btnstaff:hover {
+    background-color: $colortercery;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+

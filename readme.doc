@@ -1,0 +1,45 @@
+
+
+En el archivo index HTML sume SEO con las SIGUIENTES CARACTERISTICAS:
+
+INDEX:
+
+- Descripcion: Mediante la etiqueta META, deontro del contenido agregue las siguientes palabras: " fundacion, ONG, niños, niñas, discapacidad" 
+y en la descripcion la siguiente leyenda : Somos una fundacion encargada de la proteccion de los derechos de niños y niñas
+- En el titulo del INDEX: Fundacion Talar
+
+FORMULARIO:
+
+- Descripcion: Mediante la etiqueta META, deontro del contenido agregue las siguientes palabras: "formulario, donaciones, aportes, solidaridad"
+y en la descripcion la siguiente leyenda: Formulario de inscrpcion para tus donaciones
+- En el titulo del FORMULARIO: Donaciones
+
+APORTES:
+
+- Descripcion: Mediante la etiqueta META, deontro del contenido agregue las siguientes palabras: "donaciones, ONG, aportes, colaborar, ayudanos"
+y en la descripcion la siguiente leyenda: Ayudanos a ayudar a niños y niñas con discapacidades
+- En el titulo de APORTES: Opciones de donaciones
+
+INSCRPCION: 
+- Descripcion: Mediante la etiqueta META, deontro del contenido agregue las siguientes palabras: "inscrpcion, registro, sumate, adhesion"
+y en la descripcion la siguiente leyenda: Inscribite y se parte de nuestras bases
+- En el titulo de INSCRPCION: Inscribite
+
+QUIENES:
+- Descripcion: Mediante la etiqueta META, deontro del contenido agregue las siguientes palabras: quienes somos, nosotros, abogados, psicolgos
+y en la descripcion la siguiente leyenda: Este es nuestro equipo de profesionales
+- En el titulo de QUIENES: Quienes Somos
+
+
+
+
+
+Se crearon los 5 archivos HTML, requeridos en el proyecto.
+Se creo el archivo SASS, vinculado al SAS original.
+Se creo el repositorio y fue subido a Github
+Se crearon distintos archivos sass, _fonts, _mixins, _resets, _palets, etc. con la finalidad de ser utilizados especificamente cuando varíe el proytecto o cuando 
+se requiera modificar algunos aspectos tanto como basicos como el "reset" o puntuales como los mixins.
+Se utilizo el freamwork de Bootsrapp como carruseles.
+
+
+
